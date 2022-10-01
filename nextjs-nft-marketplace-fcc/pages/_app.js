@@ -6,7 +6,7 @@ import { NotificationProvider } from "web3uikit";
 
 const APP_ID = process.env.NEXT_PUBLIC_APP_ID;
 const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL;
-
+console.log("work");
 function MyApp({ Component, pageProps }) {
   return (
     <div>
